@@ -1,4 +1,4 @@
-const zSpacing = -1000;
+const zSpacing = -500;
 let lastPosition = zSpacing / 5;
 const frames = Array.from(document.getElementsByClassName('frame'));
 const zVals = [];

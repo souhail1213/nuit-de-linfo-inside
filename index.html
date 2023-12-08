@@ -7,6 +7,7 @@
 	<title>Beautiful world</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="scripts/scroll.js" defer></script>
+	<script src="scripts/eggs.js"></script>
 	<script src="scripts/sound.js" defer></script>
 </head>
 
@@ -15,7 +16,7 @@
 		<section class="gallery">
 			<div class="frame">
 				<div class="frame__content">
-					<h2>Vers une planete durable</h2>
+					<h2 id="interactive-element" onclick="activateInteractiveElement()">Vers une planete durable</h2>
 				</div>
 			</div>
 
@@ -29,8 +30,9 @@
 			<div class="frame frame_bg">
 				<div class="frame__content">
 					<p>La lutte contre les émissions de gaz à effet de serre nécessite une approche complète, impliquant à la fois des actions individuelles et des politiques gouvernementales. </p>
+					<div >Click me!</div>
 					<video class="frame-media frame-media_right" src="./media/video_optimized.mp4" autoplay loop
-						muted></video>
+					muted></video>
 				</div>
 			</div>
 
@@ -69,31 +71,53 @@
 				<div class="frame__content text-left">
 					<div>
 
-						<h3>Ask the mountains</h3>
-						<p>Have you ever wondered what secrets the steadfast mountains hold? Explore their ancient whispers
-							and timeless wisdom as you embark on a journey of self-discovery and wonder.</p>
+						<h3>Sur le plan politique</h3>
+						<p>Sur le plan politique, les gouvernements ont un rôle crucial à jouer en mettant en œuvre des politiques et des réglementations favorables à la réduction des émissions. </p>
 						</div>
 				</div>
 			</div>
+			<div class="frame"></div>
 
-			<div class="frame frame_bg">
+			<div class="frame"></div>
+
+
+			<!-- <div class="frame frame_bg">
 				<div class="frame__content">
 					<div class="frame-media frame-media_right" style="background-image: url(./images/4.jpg);"></div>
 					<p>Have you ever wondered what secrets the steadfast mountains hold? Explore their ancient whispers
 						and timeless wisdom as you embark on a journey of self-discovery and wonder.</p>
 				</div>
-			</div>
+			</div> -->
+			<div class="frame" id="interactive-element" onclick="activateInteractiveElement()"></div>
 
+			<div class="frame" id="interactive-element" onclick="activateInteractiveElement()"></div>
+
+			
 			<div class="frame">
 				<div class="frame__content">
-					<video class="frame-media frame-media_left" src="./media/video_optimized.mp4" autoplay loop
+					<div id="interactive-element" onclick="activateInteractiveElement()">
+
+						<video class="frame-media frame-media_left" src="./media/video_optimized.mp4" autoplay loop
 						muted></video>
-						<p>Have you ever wondered what secrets the steadfast mountains hold? Explore their ancient whispers
-							and timeless wisdom as you embark on a journey of self-discovery and wonder.</p>
+						
+						</div>
 				</div>
 			</div>
-
 			<div class="frame"></div>
+			<div class="frame"></div>
+			<div class="frame">
+				<div class="frame__content">
+					<div>
+						<div>click me !</div>
+
+						<p>Encourager l'adoption de sources d'énergie renouvelable par le biais d'incitations fiscales, de subventions et de tarifs avantageux est une mesure clé . De plus, l'établissement de réglementations environnementales strictes, en particulier pour les industries, incite à l'adoption de technologies propres et à la réduction des émissions industrielles. </p>
+						
+						</div>
+				</div>
+			</div>
+			
+
+			<div class="frame"  id="interactive-element" onclick="activateInteractiveElement()"></div>
 			<div class="frame"></div>
 
 			<div class="frame frame_bg">
@@ -101,6 +125,19 @@
 					<div class="frame-media frame-media_right" style="background-image: url(./images/5.jpg);"></div>
 				</div>
 			</div>
+			<div class="frame"></div>
+			<div class="frame"></div>
+			<div class="frame">
+				<div class="frame__content">
+					<div>
+
+						<p>Les investissements dans les infrastructures de transport public offrent une alternative écologique aux modes de déplacement individuels, tandis que des programmes de reboisement et d'afforestation soutenus par les gouvernements contribuent à absorber le dioxyde de carbone de l'atmosphère. </p>
+						
+						</div>
+				</div>
+			</div>
+			<div class="frame"></div>
+			<div class="frame"></div>
 
 			<div class="frame frame_bg">
 				<div class="frame__content">
